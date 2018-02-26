@@ -1,0 +1,90 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #003300;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #d9d9d9;
+}
+
+h1 {
+  color: white;
+}
+
+#lnulogga {
+  height: 25px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+#main {
+  min-height: 350px;
+  display: block;
+  background: url("../img/webdesignstartsida.svg") no-repeat;
+  text-align: center;
+  background-position: center top;
+  background-size: auto;
+  background-size: 40%;
+  opacity: 0.9;
+}
+
+#window {
+  margin-left: 35%;
+}
+
+.bild h3 {
+  font-size: 12px;
+}
+
+#window .bild {
+  text-align: center;
+  /* width: 30%; */
+  float: left;
+  margin-left: 10px;
+}
+
+.bild img {
+  border: 2px solid black;
+  width: 100px;
+}
+
+.bild img:hover {
+  border: 2px solid gold;
+}
+
+#footer-color {
+  color: green;
+}
+
+#main-footer {
+  text-align: center;
+  margin-top: 200px;
+}

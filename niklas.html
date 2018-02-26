@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Niklas Gjörloff</title>
+  <link rel="stylesheet" href="styles/niklas.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="javascript/main.js"></script>
+  <script src="javascript/niklas.js"></script>
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</head>
+
+<body onload="googleTranslateElementInit()">
+
+  <!-- Header med navbar -->
+  <header>
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pelle.html">Per-Emil</a></li>
+          <li><a href="niklas.html">Niklas</a></li>
+          <li><a href="https://lnu.se/program/systemvetarprogrammet-inriktning-affars-och-verksamhetsutveckling" target="_blank"><img id="lnulogga" src="img/lnu-logga-white.svg"></a>
+        </ul>
+      </nav>
+      <h1>Team Grön</h1>
+      <button id="btn" onclick="randomize()">Välj bakgrundsfärg</button>
+    </div>
+  </header>
+
+  <!-- Länkar till socialamedier -->
+  <div id="socialamedier">
+    <a href="https://www.twitter.com/" target="_blank"><img src="img/twitter-letter-logo.svg"></svg></a>
+    <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook-logo.svg"></a>
+    <a href="https://www.linkedin.com/" target="_blank"><img src="img/linkedin-logo.svg"></a>
+  </div>
+
+  <!-- Google Translate översättningsknapp -->
+  <div id="google_translate_element"></div>
+
+  <div class="container">
+
+    <!-- Tabbar -->
+    <div id="tabs">
+      <ul>
+        <li><a href="#aboutMe">Om mig</a></li>
+        <li><a href="#kurser">Kurser</a></li>
+        <li><a href="#arbete">Arbetslivserfarenheter</a></li>
+      </ul>
+
+      <!-- Innehållet för de tre tabbarna -->
+      <div id="aboutMe">
+        <img src="img/niklasbild.jpg" alt="Bild på mig" id="profilbild">
+        <p>Hej!<br><br> Mitt namn är Niklas Gjörloff och jag studerar till systemvetare.<br><br> Jag har alltid haft ett brinnande intresse för teknik och
+          beteendevetenskap. Systemvetarprogrammet kombinerar dessa två ämnesområden, och ger mig en en detaljerad inblick i hur relationen mellan teknik
+          och människor fungerar.
+          <br><br> Jag har lätt för att lära mig nya saker och tycker om att utmana mig själv. Mina arbetslivserfarenheter har gjort mig medveten om vikten
+          av fungerade kommunikation - hur det är a och o att kommunikationen fungerar för att arbetet ska bli så effektivt som möjligt.</p>
+      </div>
+
+      <div id="kurser">
+        <h1>Kurser jag har läst på Linnéuniversitet</h1>
+        <ul id="listaKurser">
+          <li>Utvecklingspsykologi</li>
+          <li>Kognitiv psykologi med neurovetenskap</li>
+          <li>Socialpsykologi</li>
+          <li>Personlighetspsykologi</li>
+          <li>Arbets- och hälsopsykologi</li>
+          <li>Vetenskapsteori, metod och metodologi</li>
+          <li>Introduktion till informatik</li>
+          <li>Verksamhetsanalys</li>
+          <li>Verksamhetsmodellering</li>
+          <li>Integration av teknik och verksamhet</li>
+          <li>IS­-baserad verksamhetsutveckling</li>
+          <li>Verksamhetens IT­-säkerhet</li>
+          <li>Säkerställning av kvalitet i informationssystem</li>
+          <li>Objektorienterad analys och processbeskrivning</li>
+          <li>Design av databaser</li>
+          <li>Introduktion till objektorienterad programmering</li>
+          <li>Datastrukturer, databaser och grafiskt användargränssnitt med ett objektorienterat programmeringsspråk</li>
+          <li>Utveckling av webbaserade applikationer</li>
+        </ul>
+      </div>
+
+      <div id="arbete">
+        <table id="tabell">
+          <tr>
+            <th>Företag</th>
+            <th>År</th>
+            <th>Arbetsuppgift</th>
+          </tr>
+          <tr>
+            <td>Outnorth AB</td>
+            <td>2014 - nu</td>
+            <td>Lagerarbetare</td>
+          </tr>
+        </table>
+
+        <div id="arbetsbeskrivning">
+          <p>Min ursprungliga arbetsuppgift på Outnorth var att paketera utgående kundordrar på utleveransavdelningen. Mina arbetsuppgifter blev efterhand
+            fler och mer diversifierade, och jag fick jobba bland annat på inleverans- och returavdelningen. Jag fann det mycket intressant och lärorikt
+            att se hur de olika avdelningar arbetade tillsammans för att skapa värde för Outnorth och dess kunder.</p>
+          <p>Min chef såg att jag hade ett stort teknik- och IT-intresse, vilket gjorde att under de två senaste somrarna har jag fått ansvara för inventering
+            när ordinarie personal varit semesterledig. Av alla mina arbetsuppgifter jag haft, tycker jag att inventering har passat mig allra bäst. Arbetsuppgifterna
+            har lärt mig att arbeta självständigt och gett mig möjligheten att känna på hur det känns att inneha en expertisroll. Det har också gett mig
+            en bättre förståelse för hur systemvetarprogrammet kan appliceras i verkligheten.</p>
+          <p>Min arbetsfilosofi på Outnorth har alltid varit att vara nyfiken, ta vara på möjligheter för nytt lärande, samt att alltid försöka bidra till
+            en god arbetsmiljö för mina arbetskamrater.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer id="main-footer">
+    <p>Copyright &copy; <span id="footer-color">TEAM GRÖN</span></p>
+  </footer>
+
+  <body>
+
+</html>

@@ -1,0 +1,152 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #003300;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+h1 {
+  color: white;
+}
+
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #d9d9d9
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* Lnuloggan som visas uppe i navigeringsfältet */
+
+#lnulogga {
+  height: 25px;
+}
+
+/* Knappen för att byta bakgrundsfärg */
+
+#btn {
+  font-size: 15px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+/* Bilden på mig som visas under "om mig"-tabben */
+
+#profilbild {
+  border: 2px solid #4CAF50;
+  border-radius: 30px;
+  width: 100px;
+  position: relative;
+  float: left;
+}
+
+/* Länkar till socialamedier */
+
+#socialamedier {
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 70px;
+  outline: 5px solid #4CAF50;
+}
+
+#socialamedier img {
+  margin: 10px;
+  display: block;
+}
+
+/* Google Translate översättningsfunktion */
+
+#google_translate_element {
+  position: absolute;
+  margin-left: 175px;
+  margin-top: 300px;
+}
+
+/* Tabbar */
+
+#tabs {
+  margin: auto;
+  margin-top: 20px;
+  text-align: left;
+  max-width: 70%;
+  border: 2px solid #4CAF50
+}
+
+#tabs #aboutMe p {
+  margin-left: 120px;
+}
+
+#kurser h1 {
+  color: #4CAF50;
+  font-size: 22px;
+}
+
+/* Tar bort bullet points för listan */
+
+#listaKurser {
+  list-style: none;
+}
+
+/* Lägger till mina egna bullet points med grön färg före varje list item */
+
+#listaKurser li:before {
+  content: "• ";
+  color: #4CAF50;
+}
+
+/* Tabell */
+
+#tabell {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tabell td, th {
+  padding: 10px;
+}
+
+td {
+  border: 1px solid #4CAF50;
+}
+
+th {
+  background: #4CAF50;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+#main-footer {
+  text-align: center;
+}
+
+/* Färg på span:en för footern */
+
+#footer-color {
+  color: #4CAF50;
+}
